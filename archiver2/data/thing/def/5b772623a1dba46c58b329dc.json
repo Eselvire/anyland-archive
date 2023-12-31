@@ -1,0 +1,1 @@
+{"v":6,"p":[{"b":3,"s":[{"p":[0,0,0],"r":[0,0,1.28066E-06],"s":[0.05832866,0.07274078,0.07144675],"c":[1,1,1],"b":["when touched then show chat keyboard","when typed then say [typed]"]}]}]}
