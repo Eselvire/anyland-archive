@@ -1,0 +1,1 @@
+{"v":5,"a":[2,3,49],"p":[{"b":14,"a":[38],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.06000005,0.06000004,0.06000004],"c":[1,1,1],"b":["when triggered then play slow firing heavy weapon with 0.23s skip , play fireworks explosion with 0.09s skip","when let go then destroy all parts with 10s disappear"]}]}]}

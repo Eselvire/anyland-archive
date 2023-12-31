@@ -1,0 +1,1 @@
+{"n":"light","a":[1],"inc":[["thing","58e6e88cdf4a364114d5fb3d"]],"p":[{"b":4,"a":[14],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.125,0.1250002,0.1250003],"c":[1,1,1],"b":["when starts then emit gravity-free thing with 0","when starts then become next in 0s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.125,0.1250002,0.1250003],"c":[1,1,1],"b":["when starts then become 1 in 30s"]}]}]}
