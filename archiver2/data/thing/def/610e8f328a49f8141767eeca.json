@@ -1,0 +1,1 @@
+{"v":9,"a":[6,7,18,23,25,34,36,37,38,39,48,49,54],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750055,0.175,0.1750053],"c":[1,1,1],"b":["when someone in vicinity then play machine starting with surround"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750055,0.175,0.1750053],"c":[1,0.1714284,0],"b":["when starts then become previous in 0.5s"]}]}]}
