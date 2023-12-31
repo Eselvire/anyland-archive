@@ -1,0 +1,1 @@
+{"n":"thing","inc":[["radroch","5893a9b8ef21cb101053f0d7"]],"p":[{"b":5,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1250001,0.1250001,0.125],"c":[0,0,0],"b":["when someone in vicinity then emit radroch with 10","when someone in vicinity then become 2 in 14s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1250001,0.1250001,0.125],"c":[0,0,0],"b":["when starts then become 1"]}]}]}
