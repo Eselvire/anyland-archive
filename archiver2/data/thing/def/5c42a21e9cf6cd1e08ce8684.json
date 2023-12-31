@@ -1,0 +1,1 @@
+{"n":"voices","v":7,"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750001,0.1750001,0.1750001],"c":[1,1,1],"b":["when starts then set voice female 75% 10 pitch 2 speed","when touched then say new high score"]}]}]}

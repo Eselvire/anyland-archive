@@ -1,0 +1,1 @@
+{"n":"thing","v":3,"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750002,0.1750001,0.1750003],"c":[1,1,1],"b":["when starts then become 2 in 10s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750002,0.1750001,0.1750003],"c":[1,1,1],"b":["when starts then tell any hiss","when starts then become 1 in 0.5s"]}]}]}
