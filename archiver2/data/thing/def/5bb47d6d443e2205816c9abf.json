@@ -1,0 +1,1 @@
+{"v":7,"a":[7,18],"p":[{"a":[12,31],"i":[{"t":"5bb16948125bf009b3e30d0e","p":[-0.01572752,-0.3512465,0.007542609],"r":[90,135,0]}],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750188,0.01636809,0.05883936],"c":[1,1,1],"b":["when any part touched then set constant rotation to 0 20 0","when told by any baby then destroy all parts with 5 shrink burst 2 force 20s restore"]}]}]}
