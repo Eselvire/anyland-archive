@@ -1,0 +1,1 @@
+{"v":9,"a":[1,2],"p":[{"b":73,"t1":168,"s":[{"p":[0.03815735,0.1723097,-0.05888714],"r":[44.8862,43.10167,162.9507],"s":[0.07181698,0.07181692,0.07181697],"c":[1,0.6857142,0],"b":["when touches hand then show chat keyboard","when typed then say [typed]","when starts then set voice female -9 pitch"],"t1":{"c":[0,0,0],"a":0.05}}]}]}

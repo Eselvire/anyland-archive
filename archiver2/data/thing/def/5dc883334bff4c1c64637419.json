@@ -1,0 +1,1 @@
+{"n":"red","v":9,"a":[7,18],"p":[{"b":9,"s":[{"p":[0,0,0],"r":[0,0,7.656432E-20],"s":[0.1250001,0.1250001,0.125],"c":[1,0,0],"b":["when touches pblet then is area.gold += 1, then destroy all parts with 1s restore","when starts then all parts face nearest ballface","when starts then propel forward with 5"]}]}]}
