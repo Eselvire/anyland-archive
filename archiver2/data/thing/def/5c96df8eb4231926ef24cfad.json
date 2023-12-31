@@ -1,0 +1,1 @@
+{"v":9,"a":[2,3],"p":[{"s":[{"p":[0,0,0],"r":[0,0,4.268868E-07],"s":[0.1750003,0.175,0.1750002],"c":[1,1,1],"b":["when triggered then become 2 in 0.2s"]},{"p":[0,0,0],"r":[0,0,4.268868E-07],"s":[0.1750003,0.175,0.1750002],"c":[1,1,1],"b":["when starts ","when touches hand then send one nearby to the apple"]}]}]}
