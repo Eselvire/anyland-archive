@@ -1,0 +1,1 @@
+{"n":"a1","p":[{"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1777904,0.1750003,0.07863237],"c":[1,1,1],"b":["when starts then send nearby onto a1","when starts then become next"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1777904,0.1750003,0.07863237],"c":[1,1,1],"b":["when starts then become previous"]}]}]}

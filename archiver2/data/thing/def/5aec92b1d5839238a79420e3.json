@@ -1,0 +1,1 @@
+{"v":4,"a":[7],"inc":[["brick","5aec6ca2ec6f4e38a01a31fa"]],"p":[{"b":4,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.005,0.005,0.005],"c":[1,1,1],"b":["when told by any melt then become 2 in 0.5s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.005,0.005,0.005],"c":[1,1,1],"b":["when starts then emit brick with 0, become 1"]}]}]}
