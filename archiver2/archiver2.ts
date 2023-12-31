@@ -1,8 +1,9 @@
 import z from 'zod'
-import { d, isMongoId, mkQuery } from './lib/utils';
+import nsq from 'nsqjs'
+import { d, isMongoId, mkQuery, mkQuery_ } from './lib/utils';
 import { mkQueueReader, mkWriter } from './lib/nsq'
 import { mkApiReqs } from './lib/api';
-import { AreaInfoSchema, AreaList, AreaSearchSchema, ForumForumSchema, ForumListSchema, Gift, ItemInfoSchema, PersonGiftsReceived, PersonInfoSchema, SubareaListSchema, ThreadsSchema } from './lib/schemas';
+import { AreaInfoSchema, AreaList, AreaSearchSchema, ForumForumSchema, ForumListSchema, Gift, ItemInfoSchema, ItemTagsSchema, PersonGiftsReceived, PersonInfoSchema, PlacementInfoSchema, SubareaListSchema, ThreadsSchema } from './lib/schemas';
 
 if (!process.env.ANYLAND_COOKIE) throw "no cookie in env"
 if (!process.env.NSQD_HOST) throw "no cookie in env"
@@ -88,6 +89,24 @@ const walkProps = (obj: unknown) => {
     }
   }
 }
+
+const downloadItemTags = mkQuery(
+  "downloadItemTags",
+  (id) => "data/thing/tags/" + id + ".json",
+  (id) => api.post("downloadItemTags", "/thing/gettags/", `thingId=${id}`),
+
+  (id, res, bodyTxt) => {
+    const bodyJson = ItemTagsSchema.parse(JSON.parse(bodyTxt))
+
+    for (const tag of bodyJson.tags) {
+      for (const userId of tag.userIds) {
+        enqueuePlayer(userId)
+      }
+    }
+  },
+  true,
+  5000,
+);
 
 
 
@@ -196,6 +215,21 @@ const downloadThread = mkQuery(
   2000
 );
 
+//////////////////////////////
+//////////////////////////////
+
+const downloadPlacementInfo = mkQuery_<{areaId: string, placementId: string}>(
+  "downloadPlacementInfo",
+  ({areaId, placementId}) => "data/placement/info/" + areaId + "/" + placementId + ".json",
+  ({areaId, placementId}) => api.post( "archiver2_downloadPlacementInfo", "/placement/info", `areaId=${areaId}&placementId=${placementId}`),
+  async ({ areaId, placementId }, res, bodyTxt) => {
+    const bodyJson = PlacementInfoSchema.parse(JSON.parse(bodyTxt))
+    console.log("placement", areaId, placementId, bodyTxt)
+    enqueuePlayer(bodyJson.placerId)
+  },
+  true,
+  3000
+);
 
 
 //////////////////////////////
@@ -277,6 +311,17 @@ const startQueueHandlers = () => {
     try {
       await downloadItemDefAndCrawlForNestedIds(id);
       await downloadItemInfo(id);
+      await downloadItemTags(id);
+
+      msg.finish();
+    } catch (e) {
+      console.log("error handling!", e)
+    }
+  })
+
+  mkQueueReader("al_things", "tags", async (id, msg) => {
+    try {
+      await downloadItemTags(id);
 
       msg.finish();
     } catch (e) {
@@ -365,6 +410,38 @@ const startQueueHandlers = () => {
       console.log("error handling!", e)
     }
   })
+
+
+  // I need both areaId and placementId for placement info, so this is a dirty copy-paste of mkQueueReader
+  // I could make a fancy abstraction to process the body, but this is the only thing that would use it
+  {
+    const topic = "al_placements";
+    const channel = "placementinfo";
+
+    const reader = new nsq.Reader(topic, channel, {
+      lookupdHTTPAddresses: '192.168.150.1:4161',
+      maxInFlight: 1,
+    })
+
+    reader.on('message', async msg => {
+      const body = msg.body.toString();
+      console.log(`${new Date().toISOString()} [${topic}] msg ${msg.id}: "${body}" (attempt #${msg.attempts})`)
+      const [ areaId, placementId ] = body.split(',')
+      if (isMongoId(areaId) && isMongoId(placementId)) {
+        await downloadPlacementInfo({ areaId, placementId })
+      }
+      else {
+        console.warn("message was not a mongoId! ignoring")
+      }
+
+      await Bun.sleep(3000)
+      msg.finish()
+    })
+
+    reader.connect()
+  }
+
+
 }
 
 
@@ -376,7 +453,7 @@ await rollAreaRoulette()
 /* TODO:
 - feed all areaIds from archiver/areas using to_nsq
 - re-feed areaIds from archiver2/area/info, the subareas queue did not get everything
-- get creations tags
+- re-feed thingIds from arhiver/thing/info, the tags endpoint was created late
 - get placement infos
 - check if data/person/areasearch has the same number of files as data/person/info - I might have messed up
 */

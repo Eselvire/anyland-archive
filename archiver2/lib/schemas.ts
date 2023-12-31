@@ -1,5 +1,12 @@
 import z from 'zod'
 
+export const PlacementInfoSchema = z.object({
+  placerId: z.string(),
+  placerName: z.string().nullable(), // Might only be null for ground 000000000000000000000001
+  placedDaysAgo: z.number(),
+}).strict()
+
+
 export const ItemInfoSchema = z.object({
   name: z.string(),
   creatorId: z.string(),
@@ -12,6 +19,12 @@ export const ItemInfoSchema = z.object({
   isUnlisted: z.boolean(),
 }).strict().nullable()
 
+export const ItemTagsSchema = z.object({
+  tags: z.array(z.object({
+    tag: z.string(),
+    userIds: z.array(z.string()),
+  }).strict())
+}).strict()
 
 
 export const PersonInfoSchema = z.union([
