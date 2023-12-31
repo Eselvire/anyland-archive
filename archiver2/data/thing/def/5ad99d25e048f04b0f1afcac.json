@@ -1,0 +1,1 @@
+{"v":4,"a":[2,14,16],"p":[{"b":73,"t":3,"pr":33,"s":[{"p":[0,0,0],"r":[0,0,-6.403302E-07],"s":[0.01267893,0.01267894,0.01267893],"c":[0,1,1],"b":["when touched then resize nearby to 100% ","when touched then play pop","when touched then destroy all parts"],"pr":{"c":[1,1,1],"m":0.25,"a":0.25,"s":0.15,"z":0.25,"g":0.5,"h":0.25}}]}]}
