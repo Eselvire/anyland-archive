@@ -1,0 +1,1 @@
+{"v":3,"p":[{"s":[{"p":[0,0,0],"r":[0,0,1.600825E-07],"s":[0.1750002,0.1750003,0.1750003],"c":[1,1,1],"b":["when touched then tell any camera","when touched then become next in 0.1s"]},{"p":[0,0,0],"r":[0,0,1.600825E-07],"s":[0.1750002,0.1750003,0.1750003],"c":[1,1,1],"b":["when touched then tell any stop camera","when touched then become next in 0.1s"]}]}]}

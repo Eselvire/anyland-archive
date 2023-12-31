@@ -1,0 +1,1 @@
+{"v":9,"p":[{"a":[12],"i":[{"t":"60af7e80872d1725a96ab0f4","p":[-0.02787804,0.00910528,0.3493344],"r":[62.79168,267.884,0.5068511]}],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750007,0.1750002,0.9354234],"c":[1,1,1],"b":["when starts then set constant rotation to 10 0 0","when touched then tell any yellowkey4, destroy all parts with burst 2 force gravity-free"]}]}]}

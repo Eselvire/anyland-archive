@@ -1,0 +1,1 @@
+{"v":4,"a":[6],"inc":[["ball","5b05899a5e7165667998d9cd"]],"p":[{"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01789753,0.02253324,0.02219133],"c":[1,1,1],"b":["when told 1 then emit ball with 10","when told 2 then emit ball with 15","when told 3 then emit ball with 20","when told 4 then emit ball with 25","when told 5 then emit ball with 30"]}]}]}

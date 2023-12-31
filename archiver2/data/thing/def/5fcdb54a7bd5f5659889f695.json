@@ -1,0 +1,1 @@
+{"n":"snow sound","v":9,"a":[6,7,18,54],"p":[{"t":7,"a":[12,39],"s":[{"p":[-4.915545,8.594612E-07,-2.211143E-07],"r":[1.001791E-05,-1.690016E-12,-1.001791E-05],"s":[0.2762896,5.201476,1.129198],"c":[1,1,1],"b":["when starts then loop heavy winds with 999","when told by any endloop then end loop","when told by any startloop then loop heavy winds with 999"]}]}]}

@@ -1,0 +1,1 @@
+{"n":"thing","inc":[["crate","58d05227d1125fde13ce17f9"],["crate 2","58d04397f01a2ec61328b8b5"]],"p":[{"b":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1250003,0.1250007,0.1250005],"c":[1,1,1],"b":["when starts then become next"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1250003,0.1250007,0.1250005],"c":[1,1,1],"b":["when starts then emit crate with 2","when starts then become next in 2s"]}]}]}

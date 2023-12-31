@@ -1,0 +1,1 @@
+{"v":9,"inc":[["fireball","5a820379dfb9f6323bbb6c4d"]],"p":[{"b":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.005876785,0.01106361,0.01070243],"c":[1,1,1],"b":["when touched then emit gravity-free fireball"]}]}]}

@@ -1,0 +1,1 @@
+{"v":9,"a":[1,2,3],"inc":[["ball","5f405257ca2cba6312e87361"]],"p":[{"b":14,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01099008,0.01099007,0.04488493],"c":[0.4444443,0.3047618,0],"b":["when hears fireball then emit ball with 40","when hears fireball then play rocket fired"]}]}]}

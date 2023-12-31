@@ -1,0 +1,1 @@
+{"v":9,"p":[{"t":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1792418,0.1281214,0.187161],"c":[0.5555556,1,1],"b":["when starts then become untweened next in 0.05s","when starts then set light intensity 60","when starts then set light range 5"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1792418,0.1281214,0.187161],"c":[0,0,0],"b":["when starts then become untweened next in 0.05s"]}]}]}

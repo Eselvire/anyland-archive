@@ -1,0 +1,1 @@
+{"v":9,"a":[48,49,54],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.175,0.175,0.1749999],"c":[1,0,0],"b":["when someone new in vicinity then play heartbeat with 200, become next in 1.3s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.175,0.175,0.1749999],"c":[1,0,0],"b":["when starts then play heartbeat with 150"]}]}]}

@@ -1,0 +1,1 @@
+{"n":"bullet","a":[2,3],"p":[{"b":14,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.06000078,0.06000075,0.06000003],"c":[1,1,1],"b":["when touched then emit gravity-free [add from inventory]"]}]}]}

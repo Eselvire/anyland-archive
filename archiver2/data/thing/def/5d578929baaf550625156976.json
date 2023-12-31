@@ -1,0 +1,1 @@
+{"n":"blooddeath","v":9,"a":[7,18,48,54],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750513,0.04888784,0.1750619],"c":[1,0,0],"b":["when neared then become next in 7s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750513,0.04888784,0.1750619],"c":[1,0,0],"b":["when starts then send one nearby onto trapdoorescape, become next in 1s"]}]}]}

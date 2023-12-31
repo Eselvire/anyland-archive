@@ -1,0 +1,1 @@
+{"n":"thing","p":[{"t":8,"a":[4,12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.07099605,0.175,0.06827977],"c":[1,1,1],"b":["when touched then become 2 in 4s","when touched then play voice evil laughter 3"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.07099605,0.175,0.06827977],"c":[1,1,1],"b":["when starts then send nearby onto hell","when starts then become 1 in 2s"]}]}]}

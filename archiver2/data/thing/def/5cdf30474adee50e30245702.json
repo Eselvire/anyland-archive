@@ -1,0 +1,1 @@
+{"n":"elevator opener","v":9,"a":[48],"p":[{"s":[{"p":[0,0,0],"r":[0,0,-9.338149E-08],"s":[0.175,0.1749999,0.1749999],"c":[1,1,1],"b":["when someone new in vicinity then tell any ele4","when someone new in vicinity then become next in 0.2s"]},{"p":[0,0,0],"r":[0,0,-9.338149E-08],"s":[0.175,0.1749999,0.1749999],"c":[1,1,1],"b":["when starts then tell any ele6"]}]}]}

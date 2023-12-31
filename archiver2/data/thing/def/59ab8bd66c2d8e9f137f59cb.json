@@ -1,0 +1,1 @@
+{"n":"thing","a":[6,7,13],"p":[{"b":5,"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[1.358138,2.254896,3.188447],"c":[1,1,1],"b":["when neared then send nearby to inbetween"]},{"p":[0,0,0],"r":[0,0,0],"s":[4.188133,2.254896,4.899198],"c":[1,1,1],"b":["when starts then send nearby to inbetween, become 1"]}]}]}

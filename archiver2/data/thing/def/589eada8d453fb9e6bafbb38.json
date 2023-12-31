@@ -1,0 +1,1 @@
+{"n":"thing","inc":[["swarmer","587163e84d14d40414dee01e"]],"p":[{"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750001,0.1750001,0.1750001],"c":[1,1,1],"b":["when starts then become next in 13s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750001,0.1750001,0.1750001],"c":[1,1,1],"b":["when starts then emit gravity-free swarmer with 2"]}]}]}

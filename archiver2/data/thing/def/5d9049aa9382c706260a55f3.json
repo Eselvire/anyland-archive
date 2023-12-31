@@ -1,0 +1,1 @@
+{"v":9,"a":[48,49,54],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750013,0.1750008,0.1750011],"c":[1,1,1],"b":["when neared and is person.spooky = 3 then tell nearby 3skullsup, become next in 7s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750013,0.1750008,0.1750011],"c":[1,1,1],"b":["when starts then play chanting 2 with reversal 75, become next in 22s"]}]}]}

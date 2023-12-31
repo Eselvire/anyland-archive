@@ -1,0 +1,1 @@
+{"v":9,"a":[7,48,49],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750036,0.1750084,0.1750096],"c":[1,1,1],"b":["when told by nearby door3 then become next in 0.5s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750036,0.1750084,0.1750096],"c":[1,1,1],"b":["when starts then send one nearby onto main2","when starts then become previous in 0.1s"]}]}]}

@@ -1,0 +1,1 @@
+{"n":"door sound collider","v":9,"a":[6,7,13,18],"p":[{"a":[12,39],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[19.87646,20.46006,36.73089],"c":[1,1,1],"b":["when touches hand then tell any outside","when touches face then tell any outside","when touch ends then tell any inside"]}]}]}

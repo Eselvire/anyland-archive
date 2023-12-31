@@ -1,0 +1,1 @@
+{"n":"creak","v":9,"a":[7,18,48,49,54],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750002,0.175,0.1750002],"c":[0.9714285,0,1],"b":["when neared then play hollow wood creak with varied-pitch 220, become next in 1s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750002,0.175,0.1750002],"c":[0.9714285,0,1],"b":["when starts then become next in 28s"]}]}]}

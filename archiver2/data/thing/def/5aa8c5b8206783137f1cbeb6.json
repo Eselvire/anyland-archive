@@ -1,0 +1,1 @@
+{"n":"light","v":3,"a":[8],"p":[{"b":3,"t":3,"s":[{"p":[0,0,0],"r":[0,0,1.320681E-06],"s":[0.1250013,0.1250013,0.4184228],"c":[0.7777778,1,0.9809523],"b":["when starts then set light range 100","when starts then set light intensity 5"]}]}]}
