@@ -1,0 +1,1 @@
+{"n":"top left repair button","v":7,"a":[22,36],"p":[{"b":62,"t":2,"a":[36],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1251645,0.1251069,0.1250758],"c":[1,0,0],"b":["when touched then tell any repairtopleft, then become next in 0.2s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1251645,0.1251069,0.1250758],"c":[0.3333332,0,0],"b":["when starts then become untweened 1 in 20s"]}]}]}

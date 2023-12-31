@@ -1,0 +1,1 @@
+{"v":7,"a":[7,12,18],"inc":[["astroid","5c30f41bef616705549d5d48"]],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750159,0.1750056,0.1750189],"c":[1,1,1],"b":["when starts then become untweened next in 20s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750159,0.1750056,0.1750189],"c":[1,1,1],"b":["when starts then emit gravity-free astroid with 60%, then become untweened previous"]}]}]}
