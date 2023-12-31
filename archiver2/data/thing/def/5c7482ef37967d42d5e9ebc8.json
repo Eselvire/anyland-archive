@@ -1,0 +1,1 @@
+{"n":"full room camera","v":7,"a":[22,12,48,49],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750208,0.1750105,0.1750421],"c":[1,1,1],"b":["when told by any full room camera then become untweened next"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750208,0.1750105,0.1750421],"c":[1,1,1],"b":["when starts then stream to tv screen","when told by any reset camera then become untweened 1"]}]}]}
