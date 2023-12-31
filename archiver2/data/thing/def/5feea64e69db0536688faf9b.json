@@ -1,0 +1,1 @@
+{"v":9,"a":[2,3,7,31,48,53],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.05337885,0.05337608,0.05337855],"c":[0.8412699,1,0.7777778],"b":["when triggered then tell body sademote, become untweened next"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.05337885,0.05337608,0.05337855],"c":[1,0.7777778,0.7777778],"b":["when triggered then tell body defemote, become untweened next"]}]}]}
