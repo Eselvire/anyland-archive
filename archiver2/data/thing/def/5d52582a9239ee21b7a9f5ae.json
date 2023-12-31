@@ -1,0 +1,1 @@
+{"v":9,"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750014,0.1750022,0.1750028],"c":[1,1,1],"b":["when told by any right-trigger-value:1 then is person.rtrigger == 1","when told by any right-trigger-value:0 then is person.rtrigger == 0"]}]}]}

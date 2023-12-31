@@ -1,0 +1,1 @@
+{"v":9,"a":[12],"p":[{"b":205,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.04500036,0.04500049,0.04500044],"c":[1,1,1],"b":["when touched then all parts face up, become next in .5"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.04500036,0.04500049,0.04500044],"c":[1,1,1],"b":["when starts then all parts face nearest poop"]}]}]}
