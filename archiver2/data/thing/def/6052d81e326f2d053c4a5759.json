@@ -1,0 +1,1 @@
+{"v":9,"a":[7,18],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750115,0.175005,0.1750029],"c":[0.7587302,1,0.5555556],"b":["when someone new in vicinity then play activating alarm voice, become 2 in 2"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750115,0.175005,1.047],"c":[1,0,0.3428572],"b":["when starts then become next in .5"]}]}]}
