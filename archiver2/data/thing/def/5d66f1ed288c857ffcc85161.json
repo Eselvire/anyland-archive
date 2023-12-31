@@ -1,0 +1,1 @@
+{"n":"door","v":9,"a":[7,18,32],"p":[{"s":[{"p":[1.857735E-07,1.0625,1.624084E-14],"r":[270,1.001791E-05,0],"s":[0.9912931,0.115603,2.120158],"c":[0.6666667,0.5037037,0.1481475],"b":["when touches hand then play knocking on wooden door with 0.09s duration very-varied-pitch","when hit then play banging closed door knocking with 0.39s duration very-varied-pitch"]}]}]}

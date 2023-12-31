@@ -1,0 +1,1 @@
+{"n":"casing","v":9,"a":[2,9,38],"tp_m": 0.1,"p":[{"b":192,"t":11,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.004739491,0.03340664,0.004750711],"c":[1,0.9206349,0.4444442],"b":["when starts then set constant rotation to 360 0 0","when touched then play bullet shells with very-varied-pitch 20, destroy all parts with 1 force bouncy"]}]}]}
