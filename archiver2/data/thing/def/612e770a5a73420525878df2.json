@@ -1,0 +1,1 @@
+{"v":9,"a":[21],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.07752825,0.07752832,0.07752834],"c":[0,1,0.9142858],"b":["when touches hand then become next in 0.1, resize nearby to 10% "]},{"p":[0,0,0],"r":[0,0,0],"s":[0.07752825,0.07752832,0.07752834],"c":[1,0.1714285,0],"b":["when touches hand then become next in 0.1, resize nearby to 100% "]}]}]}

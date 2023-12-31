@@ -1,0 +1,1 @@
+{"n":"beam","a":[2,7,12,17],"p":[{"t":7,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.035709,0.03940482,0.1750783],"c":[1,0,0],"b":["when touches one then tell dead","when touches beam then become next","when touches wall then become next"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.035709,0.03940482,0.1750783],"c":[1,0,0],"b":["when starts then destroy all parts"]}]}]}
