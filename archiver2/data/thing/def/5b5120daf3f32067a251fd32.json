@@ -1,0 +1,1 @@
+{"v":5,"a":[1,2,3],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.175,0.1750009,0.1750012],"c":[0,0,0],"b":["when triggered then emit [drop from inventory]","when triggered then say [bang]"]}]}]}
