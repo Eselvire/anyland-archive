@@ -1,0 +1,1 @@
+{"n":"tranq shot","v":7,"a":[7,12,18],"p":[{"b":3,"t":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.00417625,0.006271427,0.05238414],"c":[0.7901235,0.8888889,0.8634921],"b":["when touched then play splat hit 2 with very-varied-pitch ","when touched then add crumbles","when touched then destroy all parts"]}]}]}

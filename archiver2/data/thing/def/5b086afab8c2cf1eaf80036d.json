@@ -1,0 +1,1 @@
+{"v":4,"p":[{"a":[1],"s":[{"p":[0,0,0],"r":[0,0,-5.336085E-08],"s":[0.005,0.005,0.005],"c":[1,1,1],"b":["when hears tv then become next in 0.2s"]},{"p":[0,0,0],"r":[0,0,-5.336085E-08],"s":[0.7878015,0.005,0.6218888],"c":[1,1,1],"b":["when hears turn it off then become previous","when hears turn left then become 3"]}]}]}
