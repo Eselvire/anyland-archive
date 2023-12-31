@@ -1,0 +1,1 @@
+{"n":"launcher","v":3,"a":[32],"inc":[["ball","5aaccabc3cec41139df76a57"]],"p":[{"b":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1086134,0.06667124,0.3415299],"c":[1,1,1],"b":["when starts then all parts face nearest tgdot2","when told by any fire then emit gravity-free ball with 50"]}]}]}
