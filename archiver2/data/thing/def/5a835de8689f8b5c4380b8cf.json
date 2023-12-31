@@ -1,0 +1,1 @@
+{"n":"soundscape","v":3,"p":[{"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750003,0.1750004,0.1750004],"c":[1,1,1],"b":["when starts then play tense with very-low-pitch surround varied-pitch 100","when starts then become next in 5"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750003,0.1750004,0.1750004],"c":[1,1,1],"b":["when starts then become previous"]}]}]}
