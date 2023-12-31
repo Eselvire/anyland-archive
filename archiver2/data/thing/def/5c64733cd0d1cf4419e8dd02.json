@@ -1,0 +1,1 @@
+{"n":"cannonball","v":7,"a":[2,12,14],"p":[{"b":17,"s":[{"p":[0.01826545,0.01227258,-0.0297017],"r":[24.33402,15.61068,7.525385],"s":[0.06000016,0.06000011,0.06000022],"c":[1,1,1],"b":["when told by any speed10 then set constant rotation to 10 0 0","when told by any speed200 then set constant rotation to 200 0 0"]}]}]}

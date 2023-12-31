@@ -1,0 +1,1 @@
+{"v":6,"inc":[["thing","5b6a69e4534fca07229b69b5"]],"p":[{"b":4,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.125,0.125,0.125],"c":[1,1,1],"b":["when starts then become next in 18s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.125,0.125,0.125],"c":[1,1,1],"b":["when starts then emit thing with 50","when starts then become previous in 4"]}]}]}

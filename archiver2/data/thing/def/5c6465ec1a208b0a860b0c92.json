@@ -1,0 +1,1 @@
+{"v":7,"a":[7,50],"tp_lp": [1,0,1],"tp_lp": [1,0,1],"tp_lr": [1,1,1],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1220795,0.1750205,0.01101534],"c":[1,1,1],"b":["when told by any locktop then become 2","when let go then tell any launch"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1220795,0.1750205,0.01101534],"c":[1,0,0],"b":["when told by any locknone then become 1"]}]}]}
