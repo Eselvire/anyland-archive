@@ -1,0 +1,1 @@
+{"n":"thing","a":[2,3,22,18],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.4584657,0.102272,0.1691689],"c":[1,1,1],"b":["when grabbed then all parts face empty hand while held","when triggered then become next"]},{"p":[0.09690598,-6.146729E-08,0.02132398],"r":[0,22.50001,0],"s":[0.4585175,0.1022794,0.1691767],"c":[1,1,1],"b":["when starts then become 1"]}]}]}
