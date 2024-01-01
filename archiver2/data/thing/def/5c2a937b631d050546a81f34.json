@@ -1,0 +1,1 @@
+{"v":7,"a":[2,3],"inc":[["thing","5bfef5af75b22a64fb6e031c"]],"p":[{"b":9,"t":1,"t1":167,"t2":168,"s":[{"p":[0,0,0],"r":[0,0,-2.134434E-07],"s":[0.04039751,0.0399867,0.04154642],"c":[0,1,1],"b":["when consumed then change head to thing","when consumed then destroy all parts with burst"],"t1":{"c":[0,0,0],"a":0.75},"t2":{"c":[0,0,0],"a":0.05}}]}]}
