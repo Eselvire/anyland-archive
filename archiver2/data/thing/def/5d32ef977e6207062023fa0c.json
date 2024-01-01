@@ -1,0 +1,1 @@
+{"n":"block paintwhite","v":9,"a":[2,31],"p":[{"t":1,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.175001,0.1750004,0.1750004],"c":[1,1,1],"b":["when let go then turn uncollidable","when let go then become next in 0"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.175001,0.1750004,0.1750004],"c":[1,1,1],"b":["when touched then tell first of any place","when starts then turn collidable"]}]}]}
