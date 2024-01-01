@@ -1,0 +1,1 @@
+{"v":9,"a":[31,49],"p":[{"b":3,"t":7,"a":[12,38],"s":[{"p":[0,0,0],"r":[0,0,-1.707547E-06],"s":[0.08446917,0.08446849,0.08446909],"c":[0,0,0],"b":["when touched then destroy all parts","when touched then play water splash thick"]}]}]}
