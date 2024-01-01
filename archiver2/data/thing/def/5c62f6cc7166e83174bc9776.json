@@ -1,0 +1,1 @@
+{"n":"sample","v":7,"a":[1],"p":[{"s":[{"p":[0,0,0],"r":[0,0,-1.067217E-07],"s":[0.1750007,0.1750003,0.1750006],"c":[1,1,1],"b":["when hears start then show chat keyboard","when typed then tell any [typed]","when typed then play doorbell"]}]}]}
