@@ -1,0 +1,1 @@
+{"v":6,"a":[2,3],"p":[{"s":[{"p":[0,0,0],"r":[8.537737E-07,0,0],"s":[0.02653015,0.02288094,0.08231601],"c":[1,1,1],"b":["when triggered then send one nearby onto hi , then become 2 in 0.1s"]},{"p":[0,0,0],"r":[8.537737E-07,0,0],"s":[0.175,0.175,0.1749999],"c":[1,1,1],"b":["when starts then tell any 7 , then become 1 in 0.2s"]}]}]}
