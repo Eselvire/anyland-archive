@@ -226,6 +226,10 @@ const downloadPlacementInfo = mkQuery_<{areaId: string, placementId: string}>(
     const bodyJson = PlacementInfoSchema.parse(JSON.parse(bodyTxt))
     console.log("placement", areaId, placementId, bodyTxt)
     enqueuePlayer(bodyJson.placerId)
+
+    if (bodyJson.copiedVia) {
+      enqueueArea(bodyJson.copiedVia)
+    }
   },
   true,
   3000
@@ -364,7 +368,7 @@ const startQueueHandlers = () => {
     try {
       await downloadItemDefAndCrawlForNestedIds(id);
       await downloadItemInfo(id);
-      await downloadItemTags(id);
+      //await downloadItemTags(id);
 
       msg.finish();
     } catch (e) {

@@ -4,6 +4,7 @@ export const PlacementInfoSchema = z.object({
   placerId: z.string(),
   placerName: z.string().nullable(), // Might only be null for ground 000000000000000000000001
   placedDaysAgo: z.number(),
+  copiedVia: z.string().optional(),
 }).strict()
 
 
@@ -136,7 +137,7 @@ export const AreaSearchSchema = z.object({
 
 export const EditorSchema = z.object({
   id: z.string(),
-  name: z.string(),
+  name: z.string().nullable(),
   isOwner: z.boolean().optional()
 }).strict()
 export const AreaInfoSchema = z.object({
