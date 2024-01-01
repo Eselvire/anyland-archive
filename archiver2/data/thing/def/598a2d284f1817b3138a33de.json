@@ -1,0 +1,1 @@
+{"n":"thing","a":[7,18],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750057,0.1016044,0.1750032],"c":[1,0,0],"b":["when touches hand then tell any secret","when touches hand then become 2 in 0.2s"]},{"p":[-0.0002444983,-0.04320026,3.72529E-09],"r":[0,0,0],"s":[0.175038,0.1016385,0.1750569],"c":[1,0,0],"b":["when starts then become 1 in 0.2s"]}]}]}
