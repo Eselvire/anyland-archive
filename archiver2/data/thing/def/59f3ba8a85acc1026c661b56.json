@@ -1,0 +1,1 @@
+{"n":"insideg","v":2,"p":[{"a":[11],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750005,0.1750001,0.04707137],"c":[1,1,1],"b":["when told by any gio then become next in 0.6s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750005,0.1750001,0.04707137],"c":[1,1,1],"b":["when starts then become previous","when starts then send one nearby onto outsideg"]}]}]}
