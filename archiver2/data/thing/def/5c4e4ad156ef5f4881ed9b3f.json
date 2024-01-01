@@ -1,0 +1,1 @@
+{"n":"tgdot","v":7,"a":[2,14,16,31,45],"p":[{"b":3,"t":19,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.009293899,0.009293899,0.009293899],"c":[1,0,0],"b":["when starts then tell any tgdotdest","when starts then become next "]},{"p":[0,0,0],"r":[0,0,0],"s":[0.009293899,0.009293899,0.009293899],"c":[1,0,0],"b":["when told by any tgdotdest then destroy all parts"]}]}]}

@@ -1,0 +1,1 @@
+{"v":7,"a":[22,12,27,31,32,49],"inc":[["tgdot","5c4e38d0f2406a487ad682a7"],["tgdot 2","5c4e3b02928d804874adc8de"]],"p":[{"b":4,"t":19,"a":[36],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01032043,0.01032029,0.0103204],"c":[1,0,0],"b":["when told pointeron then project with 1000 default, show line with 0.02 width","when told pointeroff then project with 0 max"]}]}]}
