@@ -1,0 +1,1 @@
+{"v":9,"a":[7,18,31],"p":[{"b":3,"t":2,"t1":168,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.04355481,0.04355939,0.04356165],"c":[0.8888889,0.09876534,0.09876534],"b":["when touched then play fire starter poof with 0.5s skip varied-pitch, then destroy all parts with 0s restore","when starts then trail start with 0.2s"],"t1":{"c":[0.8888889,0.6095237,0],"a":0.05}}]}]}

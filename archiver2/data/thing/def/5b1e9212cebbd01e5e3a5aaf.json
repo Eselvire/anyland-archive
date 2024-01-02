@@ -1,0 +1,1 @@
+{"v":5,"a":[2,16],"p":[{"b":3,"s":[{"p":[0,0,0],"r":[0,0,3.415095E-06],"s":[0.01137878,0.01346025,0.01323201],"c":[0,0,0],"b":["when touched then destroy nearby with burst 2 force 5s restore 10 force"]}]}]}

@@ -1,0 +1,1 @@
+{"v":7,"a":[2,9,17,21],"p":[{"b":3,"s":[{"p":[0,0,0],"r":[0,0,2.134434E-07],"s":[0.01734105,0.01734106,0.01734101],"c":[1,0,0],"b":["when touches hit1 then tell any 1, become next in 0s","when touches hit2 then tell any 2, become next in 0s"]},{"p":[0,0,0],"r":[0,0,2.134434E-07],"s":[0.01734105,0.01734106,0.01734101],"c":[1,0,0],"b":["when starts then destroy all parts"]}]}]}
