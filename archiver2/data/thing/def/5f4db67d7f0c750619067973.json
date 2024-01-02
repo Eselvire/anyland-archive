@@ -1,0 +1,1 @@
+{"n":"quent petcollider","v":9,"a":[6,7,38,39],"p":[{"b":7,"t":7,"a":[12],"s":[{"p":[0.01406384,0.001481026,0.2513881],"r":[0,0,90.00001],"s":[0.2721076,0.2721161,0.5166225],"c":[1,1,1],"b":["when touches hand then tell nearby pet","when touch ends then tell nearby  petend"]}]}]}

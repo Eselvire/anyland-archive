@@ -1,0 +1,1 @@
+{"n":"coin","v":7,"a":[2],"p":[{"b":5,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01693503,0.02515817,0.01681584],"c":[0.9714286,1,0],"b":["when touches bowl then destroy all parts","when consumed then destroy all parts","when consumed then play carrot bite"]}]}]}
