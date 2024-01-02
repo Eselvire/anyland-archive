@@ -1,5 +1,7 @@
 import * as path from "node:path"
 import { Elysia, t } from 'elysia'
+import * as fs from "node:fs/promises";
+import { AreaInfoSchema } from "./lib/schemas";
 
 const HOSTNAME_API = "app.anyland.com"
 const HOSTNAME_CDN_THINGDEFS = "d6ccx151yatz6.cloudfront.net"
@@ -14,6 +16,28 @@ const PORT_CDN_THINGDEFS = process.env.PORT_CDN_THINGDEFS
 const PORT_CDN_AREABUNDLES = process.env.PORT_CDN_AREABUNDLES
 
 
+const areaIndex: {name: string, description?: string, id: string, playerCount: number }[] = [];
+const files = await fs.readdir("./data/area/info");
+
+console.log("building area index...")
+for (let i = 0; i <= files.length; i++) {
+  const filename = files[i];
+  console.log("areafile", i, "/", files.length, filename);
+
+  const areaInfo = await Bun.file(path.join("./data/area/info", filename)).json().then(AreaInfoSchema.parseAsync)
+
+    areaIndex.push({
+        name: areaInfo.name,
+        description: areaInfo.description,
+        id: path.parse(filename).name,
+        playerCount: 0,
+    });
+}
+const searchArea = (term: string) => {
+    return areaIndex.filter(a => a.name.includes(term))
+}
+
+
 const app = new Elysia()
     .onRequest(({ request }) => {
         console.info(JSON.stringify({
@@ -24,8 +48,11 @@ const app = new Elysia()
             url: request.url,
         }));
     })
-    .onError(({ code, error }) => {
-        console.info("error in middleware!", code, error.message);
+    .onError(({ code, error, request}) => {
+        console.info("error in middleware!", request.url, code);
+        if (code !== "NOT_FOUND") {
+            console.log(error)
+        }
     })
     .post('/auth/start', ({ cookie: { s } }) => {
         // I'm setting a hardcoded cookie here because this is read-only so I don't care about user sessions,
@@ -67,16 +94,30 @@ const app = new Elysia()
     .post( "/p", () => ({ "vMaj": 188, "vMinSrv": 1 }) )
     .post(
         "/area/load",
-        async ({ body: { areaId } }) => {
-            const file = Bun.file(path.resolve("./data/area/load/", areaId + ".json"))
-            if (await file.exists()) {
-                return await file.json()
+        async ({ body: { areaId, areaName } }) => {
+            if (areaId) {
+                const file = Bun.file(path.resolve("./data/area/load/", areaId + ".json"))
+                if (await file.exists()) {
+                    return await file.json()
+                }
+                else {
+                    return await Bun.file(path.resolve("./data/area/load/5773b5232da36d2d18b870fb.json")).json() // Wizardhut
+                }
             }
-            else {
-                return await Bun.file(path.resolve("./data/area/load/5773b5232da36d2d18b870fb.json")).json() // Wizardhut
+            else if (areaName) {
+                const area = areaIndex.find(a => a.name === areaName)
+                if (area) {
+                    return await Bun.file(path.resolve("./data/area/load/" + area.id + ".json")).json()
+                }
+                else {
+                    return Response.json({ "ok": false, "_reasonDenied": "Private", "serveTime": 13 }, { status: 200 })
+                }
             }
+
+            // Yeah that seems to be the default response, and yeah it returns a 200 OK
+            return Response.json({ "ok": false, "_reasonDenied": "Private", "serveTime": 13 }, { status: 200 })
         },
-        { body: t.Object({ areaId: t.String(), isPrivate: t.String() }) }
+        { body: t.Object({ areaId: t.Optional(t.String()), areaName: t.Optional(t.String()), isPrivate: t.String() }) }
     )
     .post(
         "/area/info",
@@ -106,7 +147,7 @@ const app = new Elysia()
         "/area/search",
         async ({body: { term, byCreatorId }}) => {
             if (byCreatorId) {
-                const file = Bun.file(path.resolve("./data/area/info/", byCreatorId + ".json"))
+                const file = Bun.file(path.resolve("./data/person/areasearch/", byCreatorId + ".json"))
 
                 if (await file.exists()) {
                     return await file.json()
@@ -116,8 +157,12 @@ const app = new Elysia()
                 }
             }
             else {
-                // TODO: build an index file of [ areaName, areaId ] and simply run a .includes to find all matching
-                return { areas: [], ownPrivateAreas: [] }
+                const matchingAreas = searchArea(term);
+
+                return {
+                    areas: matchingAreas,
+                    ownPrivateAreas: []
+                }
             }
 
         },

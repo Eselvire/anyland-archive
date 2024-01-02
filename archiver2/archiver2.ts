@@ -474,14 +474,27 @@ const startQueueHandlers = () => {
       const body = msg.body.toString();
       console.log(`${new Date().toISOString()} [${topic}] msg ${msg.id}: "${body}" (attempt #${msg.attempts})`)
       const [ areaId, placementId ] = body.split(',')
+
       if (isMongoId(areaId) && isMongoId(placementId)) {
-        await downloadPlacementInfo({ areaId, placementId })
+        try {
+          await downloadPlacementInfo({ areaId, placementId })
+          msg.finish()
+        } catch(e) {
+          console.log("error handling placement", e)
+
+          if (msg.attempts < 10) {
+            msg.finish()
+          }
+          else {
+            msg.requeue()
+          }
+        }
       }
       else {
         console.log("message was not a mongoId! ignoring")
+        msg.finish()
       }
 
-      msg.finish()
     })
 
     reader.connect()
@@ -528,9 +541,15 @@ startQueueHandlers()
 await rollAreaRoulette()
 
 
-/* TODO:
-- feed all areaIds from archiver/areas using to_nsq
-- re-feed areaIds from archiver2/area/info, the subareas queue was created late (wait for other queues to finish so that they can skip it all)
-- re-feed thingIds from archiver2/thing/info, the tags   queue was ditto ditto ditto
-- check if data/person/areasearch has the same number of files as data/person/info - I might have messed up
-*/
+
+
+process.on('uncaughtException', (error) => {
+  console.error('Uncaught Exception:', error);
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
+
