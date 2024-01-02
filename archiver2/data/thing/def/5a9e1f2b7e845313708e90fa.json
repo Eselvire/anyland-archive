@@ -1,0 +1,1 @@
+{"n":"first gun","v":3,"inc":[["bullet","5a9e1e5bfafd0b0fe9140e9c"]],"p":[{"b":14,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.06,0.06000002,0.06000003],"c":[0.4571426,1,0],"b":["when touched then emit bullet with 50"]}]}]}
