@@ -1,0 +1,1 @@
+{"n":"emotion3","v":3,"a":[31],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.0380058,0.04063204,0.0406321],"c":[1,1,1],"b":["when touched then tell emotion3","when touched then become next in 0.5s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.0380058,0.04063204,0.0406321],"c":[0,0,0],"b":["when starts then become next in 0.5s"]}]}]}

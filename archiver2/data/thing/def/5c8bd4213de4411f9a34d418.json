@@ -1,0 +1,1 @@
+{"n":"invisor","v":7,"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1750002,0.1750003,0.1750002],"c":[1,1,1],"b":["when touches hand then allow invisibility, become next in 0.5"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1750002,0.1750003,0.1750002],"c":[0,0,0],"b":["when touches hand then disallow invisibility, become next in 0.5"]}]}]}
