@@ -1,0 +1,1 @@
+{"n":"thing","a":[2,9,14],"inc":[["thing","58eab26acb8765aa13a2f14f"]],"p":[{"b":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.125,0.125,0.1250001],"c":[1,1,1],"b":["when touched then emit [drop from inventory]","when touched then emit thing with 10"]}]}]}

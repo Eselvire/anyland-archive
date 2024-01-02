@@ -1,0 +1,1 @@
+{"n":"hell","a":[2,12,16],"p":[{"b":9,"t":7,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02107898,0.0292547,0.04390883],"c":[1,0,0],"b":["when touched then become 2 in 0.2s","when starts then all parts face someone"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.4148111,1.139027,0.2592625],"c":[1,0,0],"b":["when told by any die then send nearby to you are dead"]}]}]}
