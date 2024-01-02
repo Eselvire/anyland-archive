@@ -1,0 +1,1 @@
+{"n":"black checkers","v":9,"a":[1,22,31,50],"p":[{"b":15,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02210527,0.02210394,0.02210428],"c":[0,0,0],"b":["when told by any resetmove then reset position","when told by any resetmove then reset rotation"]}]}]}
