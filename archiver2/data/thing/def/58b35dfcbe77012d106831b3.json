@@ -1,0 +1,1 @@
+{"n":"thing","a":[2,16],"p":[{"b":10,"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.005,0.005,0.005],"c":[1,1,1],"b":["when touched then send nearby to purgatory","when touched then become next in 0.2s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.514248,0.5045024,0.5236942],"c":[1,1,1],"b":["when touched then send nearby to purgatory"]}]}]}

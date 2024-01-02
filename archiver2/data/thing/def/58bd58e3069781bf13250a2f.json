@@ -1,0 +1,1 @@
+{"n":"redball","a":[2,12,16],"p":[{"b":9,"t":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01957211,0.02357619,0.02133012],"c":[1,0,0.1714283],"b":["when told by any die then send nearby onto blue-die","when told by nearby disable then destroy all parts"]}]}]}

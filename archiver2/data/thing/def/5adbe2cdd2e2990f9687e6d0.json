@@ -1,0 +1,1 @@
+{"v":4,"inc":[["thing","5adbcce9711e330fcf0decbe"]],"p":[{"b":73,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.6742635,0.6742634,0.6742635],"c":[1,1,1],"b":["when touched then become next in 10"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.005,0.005,0.005],"c":[0,0,0],"b":["when starts then destroy all parts"]}]}]}
