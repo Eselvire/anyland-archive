@@ -1,0 +1,1 @@
+{"n":"paintbullet","v":9,"a":[15],"p":[{"b":3,"t":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.00449808,0.0116786,0.006698513],"c":[0.111111,0.4666662,1],"b":["when when touches redtarget then is area.bluepoint ++","when starts then trail start with 0.1"]}]}]}

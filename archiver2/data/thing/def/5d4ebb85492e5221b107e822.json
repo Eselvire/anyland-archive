@@ -1,0 +1,1 @@
+{"n":"tep","v":9,"a":[7,18],"p":[{"b":73,"t":19,"s":[{"p":[0,0,0],"r":[0,0,-4.378969E-13],"s":[0.03437003,0.03437026,0.03436647],"c":[0,0,0],"b":["when touched then become next"]},{"p":[0,0,0],"r":[0,0,-4.378969E-13],"s":[0.04665908,0.04665931,0.04665552],"c":[1,0,0],"b":["when starts then play ping","when told by any be then destroy all parts with 2s restore"]}]}]}

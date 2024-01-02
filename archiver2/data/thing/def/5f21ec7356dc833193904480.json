@@ -1,0 +1,1 @@
+{"v":9,"a":[15],"p":[{"b":3,"t":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.004498074,0.01167859,0.006698505],"c":[0.7777778,0.2049381,0.08641965],"b":["when when touches target then is area.point ++","when starts then trail start with 0.1"]}]}]}

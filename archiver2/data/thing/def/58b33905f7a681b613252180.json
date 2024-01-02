@@ -1,0 +1,1 @@
+{"n":"thing","a":[2,3,12],"p":[{"b":9,"t":1,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.009672027,0.01045115,0.01994791],"c":[1,1,1],"b":["when grabbed then tell first of any pegrab","when let go then tell first of any pelet","when triggered then tell first of any trig","when trigger let go then tell first of any trlet","when let go then destroy all parts"]}]}]}
