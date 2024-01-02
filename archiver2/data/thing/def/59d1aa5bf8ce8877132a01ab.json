@@ -1,0 +1,1 @@
+{"n":"judgement","a":[2,6,12,16,21],"p":[{"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.3494619,0.3784514,4.137662],"c":[1,1,1],"b":["when touched then become next","when told by any dis then destroy all parts"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.3494619,0.3784514,4.137662],"c":[1,1,1],"b":["when starts then send one nearby to the wrath of philipp"]}]}]}

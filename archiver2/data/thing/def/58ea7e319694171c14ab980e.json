@@ -1,0 +1,1 @@
+{"n":"emp1","a":[6,7,18],"inc":[["portalp2","58ea7b8e70f5d32e10476b68"],["portal2","58ea7ba6a9bde49e4b02a4d9"]],"p":[{"b":9,"pr":34,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02386069,0.0295265,0.03801268],"c":[0.1142855,1,0],"b":["when told no then emit portal2 with 0","when told by any portalopen then tell no"],"pr":{"c":[1,1,1],"m":0.25,"a":0.25,"s":0,"z":0.25,"g":0.5,"h":0.25}}]}]}

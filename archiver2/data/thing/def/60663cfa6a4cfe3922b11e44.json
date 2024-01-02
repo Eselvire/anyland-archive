@@ -1,0 +1,1 @@
+{"n":"fire detonate pulse","v":9,"a":[7,14,18,49],"p":[{"b":73,"t":21,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.325,0.3250006,0.3250007],"c":[1,0.342857,0],"b":["when starts then play gaffer tape pull 2 with low-pitch, become 2 in 0.2s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.02499999,0.02500058,0.0250007],"c":[0,0,0],"b":["when starts then destroy all parts"]}]}]}

@@ -1,0 +1,1 @@
+{"n":"burst force","v":6,"a":[2,21],"p":[{"b":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02243753,0.02243754,0.02243753],"c":[1,0.6857142,0],"b":["when touched then destroy nearby with burst 10 force 5s restore"]}]}]}
