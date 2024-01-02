@@ -1,0 +1,1 @@
+{"n":"glass","v":9,"d":"DON'T TAP ON THE GLASS!","a":[7,18,48],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[2.720234,1.161107,0.02698481],"c":[1,1,1],"b":["when touches hand then play glass tap short, become next in 0.2s"]},{"p":[0,0,0],"r":[0,0,0],"s":[2.720234,1.161107,0.02698481],"c":[1,1,1],"b":["when starts then become next in 0.1s"]}]}]}

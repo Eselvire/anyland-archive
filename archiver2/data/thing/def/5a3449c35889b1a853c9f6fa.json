@@ -1,0 +1,1 @@
+{"n":"trip wire","v":3,"p":[{"b":5,"t":2,"pr":27,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.005000013,0.005000003,2.802258],"c":[1,0.1714284,0],"b":["when touched then tell nearby fire","when touches face then tell nearby fire"],"pr":{"c":[1,0,0],"a":0.00390172}}]}]}
