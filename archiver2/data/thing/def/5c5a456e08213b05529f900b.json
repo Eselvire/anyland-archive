@@ -1,0 +1,1 @@
+{"n":"elevator","v":7,"a":[7,18],"p":[{"b":145,"t":1,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1643904,0.5707505,0.5362501],"c":[1,1,1],"b":["when told elevatorup then become 2 in 5s, tell lowdoorclose","when starts then tell lowdooropen"]},{"p":[-4.407471,0,-2.980232E-08],"r":[0,0,0],"s":[0.164403,0.5708174,0.5362883],"c":[1,1,1]}]}]}

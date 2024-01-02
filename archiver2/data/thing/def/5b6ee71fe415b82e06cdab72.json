@@ -1,0 +1,1 @@
+{"n":"say button","v":6,"a":[31],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.04967282,0.04967267,0.04967288],"c":[0,1,1],"b":["when touches hand then show chat keyboard","when typed then say [typed]","when starts then set voice male 10 pitch"]}]}]}

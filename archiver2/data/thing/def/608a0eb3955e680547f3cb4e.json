@@ -1,0 +1,1 @@
+{"n":"scanner","v":9,"a":[7,18,31,38,39],"p":[{"a":[14],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01327135,0.01327287,0.0132727],"c":[1,1,1],"b":["when touched then tell hi, say [closest held]","when told hi then become untweened next"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.01327135,0.01327287,0.0132727],"c":[1,1,1],"b":["when starts then become untweened previous in 1s"]}]}]}
