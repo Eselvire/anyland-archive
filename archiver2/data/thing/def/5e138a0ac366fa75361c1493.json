@@ -1,0 +1,1 @@
+{"v":9,"a":[7,12],"p":[{"b":9,"t":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.008617759,0.008617789,0.05660543],"c":[0.9968254,1,0.8888889],"b":["when touched then send one nearby onto map1room, then destroy all parts with 1s restore"]}]}]}

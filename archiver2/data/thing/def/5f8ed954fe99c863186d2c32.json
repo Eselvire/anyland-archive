@@ -1,0 +1,1 @@
+{"n":"erty","v":9,"a":[22,18,31],"p":[{"b":202,"a":[14,17,18,24,39,41],"sa":0,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.004990313,0.004989631,0.004988477],"c":[0.2222221,0.2186947,0.1975307],"b":["when starts then set constant rotation to 120 0 310","when touched then play bullet shells , destroy all parts"]}]}]}

@@ -1,0 +1,1 @@
+{"n":"current","a":[2,7,16,18],"p":[{"b":5,"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.1926462,0.1876659,0.07400066],"c":[1,1,1],"b":["when touched then send one nearby to current","when touched then destroy all parts"]}]}]}

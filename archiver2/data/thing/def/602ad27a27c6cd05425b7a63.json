@@ -1,0 +1,1 @@
+{"n":"pizza sus projectile","v":9,"a":[7,18,31],"p":[{"b":10,"s":[{"p":[0,0,0],"r":[1.024528E-05,90.00001,90.00001],"s":[0.03119327,0.0311929,0.03119332],"c":[0.7777778,0.6049383,0.6049383],"b":["when touched then add crumles, destroy all parts with 0s disappear","when told by any pizzasusapply then destroy all parts with 0s disappear"]}]}]}

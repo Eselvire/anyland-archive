@@ -1,0 +1,1 @@
+{"n":"ppblkpropel","a":[2,6,7,14,17,18],"p":[{"b":12,"t":1,"s":[{"p":[0,0,0],"r":[0,0,6.157171E-14],"s":[0.02237941,0.005,0.01012474],"c":[0,0,0],"b":["when starts then rotate forward with 8","when touches dancefloor then destroy all parts","when touches building1 then destroy all parts"]}]}]}

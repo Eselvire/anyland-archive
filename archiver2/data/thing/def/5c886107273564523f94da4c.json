@@ -1,0 +1,1 @@
+{"v":7,"a":[7,12,18],"p":[{"t":1,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02917317,0.009032391,0.007530361],"c":[0.3333332,0.3333332,0.3333332],"b":["when starts then set constant rotation to 100 80 0","when touched then destroy all parts"]}]}]}
