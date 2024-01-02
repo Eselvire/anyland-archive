@@ -1,0 +1,1 @@
+{"n":"laser1","p":[{"t":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.05391045,0.284989,0.04198471],"c":[1,0,0],"b":["when touched then play splat hit 2","when touched then destroy all parts"]}]}]}

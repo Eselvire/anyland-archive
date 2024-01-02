@@ -1,0 +1,1 @@
+{"v":9,"a":[31,32],"p":[{"b":10,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.03687991,0.03687137,0.03688078],"c":[1,0,0],"b":["when touches face and is person.team=1 then send one nearby onto join1","when touches face and is person.team=2 then send one nearby onto join2","when touches face then add crumbles for all parts, destroy all parts"]}]}]}

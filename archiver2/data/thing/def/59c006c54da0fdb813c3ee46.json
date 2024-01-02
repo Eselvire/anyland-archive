@@ -1,0 +1,1 @@
+{"n":"arrow","p":[{"b":3,"t":3,"a":[3],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01694119,0.01694104,0.01694113],"c":[0.6666667,0,0.5714284],"b":["when touched then become 2"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.07186931,0.07186916,0.07186925],"c":[1,0,0.8571426],"b":["when starts then play metal ding","when touched then add crumbles","when touched then destroy all parts"]}]}]}
