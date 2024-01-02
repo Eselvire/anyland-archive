@@ -1,0 +1,1 @@
+{"n":"clean square","v":5,"a":[2,3,31],"p":[{"a":[5],"s":[{"p":[0,0,0],"r":[270,1.151484E-12,0],"s":[0.07840775,0.07840775,0.07840775],"c":[0,0.4952375,0.6666667],"b":["when triggered then become next","when let go then destroy all parts"]},{"p":[0,0,0],"r":[270,1.151484E-12,0],"s":[1369.655,1369.655,1369.655],"c":[1,1,1],"b":["when starts then become untweened next"]}]}]}

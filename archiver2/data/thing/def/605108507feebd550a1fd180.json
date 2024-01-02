@@ -1,0 +1,1 @@
+{"v":9,"a":[2],"p":[{"b":3,"t":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.00900377,0.01038441,0.007864691],"c":[1,1,1],"b":["when starts then trail start with 0.2s","when touched then destroy all parts with 0 restore","when starts then become untweened 2 in 0.1","when touched then play button click 5 with very-high-pitch surround"]}]}]}

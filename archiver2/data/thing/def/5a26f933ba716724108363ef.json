@@ -1,0 +1,1 @@
+{"n":"laser","v":3,"a":[7,18],"p":[{"b":3,"t":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.008406703,0.0919254,0.01113036],"c":[0,0.7428569,1],"b":["when touched then send one nearby to you are dead, destroy all parts"]}]}]}

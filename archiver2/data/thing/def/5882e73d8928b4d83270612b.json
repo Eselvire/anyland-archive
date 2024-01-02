@@ -1,0 +1,1 @@
+{"n":"bl1","a":[7,12,18],"inc":[["thing","5882d6b935c2bea1130659d9"],["thing 2","5882e707dcc5de1510b39515"]],"p":[{"t":2,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01074435,0.01188332,0.03575914],"c":[1,1,1],"b":["when starts then all parts face up","when touched then emit gravity-free thing 2 with 8","when told by any vanish then destroy all parts"]}]}]}
