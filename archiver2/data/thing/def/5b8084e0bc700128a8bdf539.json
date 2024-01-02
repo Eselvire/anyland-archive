@@ -1,0 +1,1 @@
+{"v":6,"p":[{"b":73,"t":3,"s":[{"p":[0,0,0],"r":[0,0,4.268868E-07],"s":[0.1248629,0.1248629,0.124863],"c":[0.9714285,0,1],"b":["when touched then send nearby to teleportations","when touched then become 2 in 0.5s"]},{"p":[0,0,0],"r":[0,0,4.268868E-07],"s":[0.1248629,0.1248629,0.124863],"c":[0.9714285,0,1],"b":["when starts then become 1 in 0.5s"]}]}]}

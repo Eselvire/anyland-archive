@@ -1,0 +1,1 @@
+{"v":9,"a":[2,22,12,14,16,31],"p":[{"b":166,"t":2,"s":[{"p":[-0.000997748,-0.001617787,0.008482814],"r":[270,180,0],"s":[0.003994508,0.001,0.003994508],"c":[1,0.8571429,0],"b":["when touched then play explosion kickback crackle","when touched then send one nearby to kickedforstuff","when touched then destroy all parts","when starts then trail start with 5s"]}]}]}

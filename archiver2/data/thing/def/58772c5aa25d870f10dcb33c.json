@@ -1,0 +1,1 @@
+{"n":"lazer","a":[2,7,12,13,17,18],"p":[{"t":3,"a":[5],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.04263089,0.03722847,0.1750313],"c":[1,0,0],"b":["when touched then become 2 in 0.1s","when touched then play splat hit 2"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.0426286,0.03722547,0.1750007],"c":[1,0,0],"b":["when starts then destroy all parts"]}]}]}

@@ -1,0 +1,1 @@
+{"n":"thing","a":[2,3,16],"p":[{"b":3,"t":3,"a":[5],"t1":4,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.005000005,0.005000009,0.16903],"c":[0.9714286,1,0],"b":["when touched then send one nearby to you are dead","when triggered then send one nearby to you are dead"],"t1":{"c":[0,0,0],"x":0.17,"y":0.17,"a":0.69625,"m":0.5,"n":0.5,"r":0,"g":0,"o":0.5,"t":0.5,"e":0.5}}]}]}

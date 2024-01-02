@@ -1,0 +1,1 @@
+{"n":"fire","v":6,"a":[2,16],"p":[{"b":73,"t":3,"a":[5],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.06961586,0.06961592,0.06961587],"c":[0.9714286,1,0],"b":["when touched then become 2 in 4s","when starts then play firework crack"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.1312428,0.1312429,0.1312428],"c":[1,0.5142855,0],"b":["when starts then play fire starter poof, destroy all parts"]}]}]}

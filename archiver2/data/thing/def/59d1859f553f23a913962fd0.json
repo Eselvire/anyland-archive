@@ -1,0 +1,1 @@
+{"n":"thing","inc":[["snow","59d150987dd618b8134fa7bf"],["snow 2","59d181aacaeb44252f188ec9"],["snow 3","59d184c63b5eb4192f5f8f97"]],"p":[{"b":73,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02236951,0.02236951,0.02236951],"c":[1,1,1],"b":["when told by makeitsnow then emit gravity-free snow 3 with 0","when told by any makeitsnow then destroy all parts"]}]}]}
