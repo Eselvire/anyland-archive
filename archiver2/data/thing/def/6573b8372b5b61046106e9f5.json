@@ -1,0 +1,1 @@
+{"v":9,"a":[31,48,49],"inc":[["splash spell","6573b570a5f43d14c216f630"],["nitor","656fc292baa2b214c00653e2"]],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.01061387,0.01061444,0.0106145],"c":[1,1,1],"b":["when told splash then emit gravity-free splash spell","when told nitor then emit gravity-free nitor"]}]}]}

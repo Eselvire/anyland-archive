@@ -1,0 +1,1 @@
+{"v":7,"a":[7,12,18],"p":[{"t":21,"a":[14,17,18,24],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02410276,0.02487491,0.08506189],"c":[1,0.6857142,0],"b":["when touched then destroy all parts","when touched then send one nearby onto start"]}]}]}

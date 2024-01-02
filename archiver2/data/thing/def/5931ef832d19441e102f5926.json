@@ -1,0 +1,1 @@
+{"n":"thing","inc":[["thing","5931ef0a2c1cc81f10cfe8d6"]],"p":[{"b":5,"t":8,"a":[12],"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.005,0.005,0.02707524],"c":[1,1,1],"b":["when starts then emit thing with 0","when starts then become 2 in 0.2s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.005,0.005,0.02707524],"c":[1,1,1],"b":["when starts then destroy all parts"]}]}]}

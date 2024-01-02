@@ -1,0 +1,1 @@
+{"n":"thing","a":[12],"p":[{"b":9,"t":3,"s":[{"p":[0,0,0],"r":[0,0,-4.268868E-07],"s":[0.02402247,0.02586651,0.02332449],"c":[0,0.9142855,1],"b":["when starts then propel forward with 10","when touched then tell nearby hurt","when touched then destroy all parts"]}]}]}

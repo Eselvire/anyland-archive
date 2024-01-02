@@ -1,0 +1,1 @@
+{"n":"boardscanner","v":9,"a":[48],"p":[{"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.02688473,0.04552531,0.03660978],"c":[1,0,0.3428572],"b":["when starts then become next in 1s"]},{"p":[0,0,0],"r":[0,0,0],"s":[0.02688473,0.04552531,0.03660978],"c":[0.1142857,0,1],"b":["when starts then destroy all parts with 1s disappear"]}]}]}
