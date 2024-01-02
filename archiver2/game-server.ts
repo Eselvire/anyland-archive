@@ -16,6 +16,23 @@ const PORT_CDN_THINGDEFS = process.env.PORT_CDN_THINGDEFS
 const PORT_CDN_AREABUNDLES = process.env.PORT_CDN_AREABUNDLES
 
 
+
+
+
+const generateObjectId_ = (timestamp: number, machineId: number, processId: number, counter: number) => {
+    const hexTimestamp = Math.floor(timestamp / 1000).toString(16).padStart(8, '0');
+    const hexMachineId = machineId.toString(16).padStart(6, '0');
+    const hexProcessId = processId.toString(16).padStart(4, '0');
+    const hexCounter = counter.toString(16).padStart(6, '0');
+
+    return hexTimestamp + hexMachineId + hexProcessId + hexCounter;
+}
+
+
+let objIdCounter = 0;
+const generateObjectId = () => generateObjectId_(Date.now(), 0, 0, objIdCounter++)
+
+
 const areaIndex: {name: string, description?: string, id: string, playerCount: number }[] = [];
 const areaByUrlName = new Map<string, string>()
 const files = await fs.readdir("./data/area/info");
@@ -71,13 +88,15 @@ const app = new Elysia()
         s.value = "s%3AtbpGGrOdcHy1REgxa1gnD-npvGihWmBT.XynxEe6TsRGW8qif%2BxS2KQC9ryX%2F44CdhQKSNL0hsZc";
         s.httpOnly = true;
 
+        const playerId = generateObjectId()
+
         return {
             vMaj: 188,
             vMinSrv: 1,
-            personId:   '5a18e948df317fa919191919',
-            homeAreaId: '5773b5232da36d2d18b870fb', // Buildtown
+            personId:   playerId,
+            homeAreaId: '5773cf9fbdee942c18292f08', // sunbeach
             screenName: 'singleplayer explorer',
-            statusText: 'exploring around',
+            statusText: 'exploring around (my id: ' + playerId + ')',
             isFindable: true,
             age: 2226,
             ageSecs: 192371963,
@@ -111,20 +130,24 @@ const app = new Elysia()
                     return await file.json()
                 }
                 else {
-                    return await Bun.file(path.resolve("./data/area/load/5773b5232da36d2d18b870fb.json")).json() // Wizardhut
+                    console.error("couldn't find area", areaId, "on disk?")
+                    return Response.json({ "ok": false, "_reasonDenied": "Private", "serveTime": 13 }, { status: 200 })
                 }
             }
             else if (areaUrlName) {
-                const area = areaIndex.find(a => a.name === areaUrlName)
-                if (area) {
+                const areaId = findAreaByUrlName(areaUrlName)
+                console.log("client asked to load", areaUrlName, " - found", areaId);
+
+                if (areaId) {
                     console.error("couldn't find area", areaUrlName, "in our index?")
-                    return await Bun.file(path.resolve("./data/area/load/" + area.id + ".json")).json()
+                    return await Bun.file(path.resolve("./data/area/load/" + areaId + ".json")).json()
                 }
                 else {
                     return Response.json({ "ok": false, "_reasonDenied": "Private", "serveTime": 13 }, { status: 200 })
                 }
             }
 
+            console.error("client asked for neither an areaId or an areaUrlName?")
             // Yeah that seems to be the default response, and yeah it returns a 200 OK
             return Response.json({ "ok": false, "_reasonDenied": "Private", "serveTime": 13 }, { status: 200 })
         },
