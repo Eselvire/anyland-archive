@@ -1,0 +1,1 @@
+{"v":7,"a":[7,12,18],"p":[{"b":3,"t":3,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[0.0158224,0.01641206,0.1250059],"c":[0,0.05714229,1],"b":["when touched then destroy all parts","when touched then send nearby onto death zone"]}]}]}
