@@ -68,6 +68,12 @@ const findAreaByUrlName = (areaUrlName: string) => {
 }
 
 
+
+// TODO store this properly using the player's ID, handSide etc
+const holdGeoMap = {}
+
+
+
 const app = new Elysia()
     .onRequest(({ request }) => {
         console.info(JSON.stringify({
@@ -233,6 +239,21 @@ const app = new Elysia()
         },
         { body: t.Object({ areaId: t.String(), userId: t.String() }) }
     )
+    .post("/person/getholdgeometry", async ({ body }) => {
+	    console.log(body, holdGeoMap)
+	    return holdGeoMap[body.thingId] || {}
+    },
+    {
+        body: t.Unknown()
+    })
+    .post("/person/registerhold", async ({ body }) => {
+	    console.log(body)
+	    holdGeoMap[body.thingId] = body.geometry
+        return { ok: true }
+    },
+    {
+        body: t.Unknown()
+    })
     .get("/inventory/:page",
         () => {
             return { "inventoryItems": null }
@@ -287,6 +308,13 @@ const app = new Elysia()
     )
     .get("/forum/forum/:id", ({params: { id }}) => Bun.file(path.resolve("./data/forum/forum/", id + ".json")).json() )
     .get("/forum/thread/:id", ({params: { id }}) => Bun.file(path.resolve("./data/forum/thread/", id + ".json")).json() )
+    .post(
+        "/forum/forumid",
+        ({body: { forumName }}) => {
+		return { ok: true, forumId: "629158392f5bde05e84386d0" } // canned boardtown
+	},
+        { body: t.Object({ forumName: t.String() }) }
+    )
 	.listen({
         hostname: HOST,
         port: PORT_API,
@@ -360,6 +388,7 @@ const app_thingDefs = new Elysia()
 
                 }
                 catch (e) {
+                console.error("unable to read thingdef json?", thingId, e)
                     return Response.json("", { status: 200 })
                 }
             }
@@ -395,20 +424,22 @@ const app_ugcImages = new Elysia()
         console.info("error in middleware!", code, error.message);
     })
     .get(
-        "/:part1/:part2/",
+        "/ugc/:part1/:part2/",
         async ({ params: { part1, part2 } }) => {
-            const file = Bun.file(path.resolve("../archiver/images/", `${part1}_${part2}.png`));
+		const filename = path.join("../archiver/images/", `${part1}_${part2}.png`)
+            const file = Bun.file(filename);
 
             if (await file.exists()) {
                 try {
-                    return await file.json();
+                    return file;
                 }
                 catch (e) {
+			console.log("error reading file")
                     return new Response("<html><head><title>404 Not Found</title></head><body><h1>Not Found</h1></body></html>", { status: 404 })
                 }
             }
             else {
-                console.error("client asked for an ugc image not on disk!!", part1, part2)
+                console.error("client asked for an ugc image not on disk!!", part1, part2, filename)
                 return new Response("<html><head><title>404 Not Found</title></head><body><h1>Not Found</h1></body></html>", { status: 404 })
             }
 
