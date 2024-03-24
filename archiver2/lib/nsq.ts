@@ -70,7 +70,13 @@ export const mkQueueReader = (topic: string, channel: string, onId: (id: string,
     }
     else {
       console.log(`${new Date().toISOString()} [${topic}/${channel}] msg ${msg.id}: "${body}" not a mongoid!!!!!!!!!!!!! requeueing`)
-      msg.requeue()
+      const knownBadIds = ["5d6d7f813301292798458d2", "5d0d20ce3ec26c100c45d57", "5d6d7f813301292798458d2"]
+      if (knownBadIds.includes(body)) {
+	      msg.finish()
+      }
+      else {
+	      msg.requeue()
+      }
     }
   })
 

@@ -306,7 +306,6 @@ const rollAreaRoulette = async () => {
   }
 }
 
-setInterval(() => rollAreaRoulette(), 1000 * 60 * 2)
 
 
 
@@ -508,7 +507,8 @@ const startQueueHandlers = () => {
 
 
 startQueueHandlers()
-await rollAreaRoulette()
+//setInterval(() => rollAreaRoulette(), 1000 * 60 * 2)
+//await rollAreaRoulette()
 
 
 
